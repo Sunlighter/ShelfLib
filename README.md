@@ -1,8 +1,10 @@
-<!-- -*- coding: utf-8; fill-column: 118 -*- -->
+﻿<!-- -*- coding: utf-8; fill-column: 118 -*- -->
 
 # Shelf Library
 
-A persistent dictionary using SQLite
+A persistent dictionary using SQLite.
+
+This library is available on NuGet as **Sunlighter.ShelfLib**.
 
 ## Purpose and Features
 
