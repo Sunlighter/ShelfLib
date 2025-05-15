@@ -15,9 +15,17 @@
     <PackageProjectUrl>https://github.com/Sunlighter/ShelfLib</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <!-- <GenerateDocumentationFile>true</GenerateDocumentationFile> -->
-    <AssemblyVersion>1.0.1</AssemblyVersion>
-    <FileVersion>1.0.1</FileVersion>
-    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>true</Optimize>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,7 +34,7 @@
 
   <ItemGroup>
     <PackageReference Include="Sunlighter.OptionLib" Version="1.0.2" />
-    <PackageReference Include="Sunlighter.TypeTraitsLib" Version="1.1.0" />
+    <PackageReference Include="Sunlighter.TypeTraitsLib" Version="1.1.1" />
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119.0" />
   </ItemGroup>
 
